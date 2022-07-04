@@ -32,11 +32,21 @@ header {
 .delivery h3 {
     color: dimgray;
 }
+.products {
+    
+}
 .product {
+    border: 2px solid #000;
+    border-radius: 15px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 20px;  
+    margin: 20px;
+}
+.title {
+    margin: 1.5rem auto;
+    font-size: large;
 }
 .price {
     padding: 10px;
