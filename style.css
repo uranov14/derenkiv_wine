@@ -28,6 +28,7 @@ body {
 }
 .delivery h3 {
     color: dimgray;
+    text-decoration: underline;
 }
 .product {
     border: 2px solid #000;
@@ -37,13 +38,31 @@ body {
     justify-content: center;
     padding: 15px 5px;  
     margin: 10px 0;
+    overflow: hidden;
+}
+.action {
+    background-color: rgb(243, 2, 2);
+    width: fit-content;
+    padding: .5rem 3.6rem;
+    transform: rotate(-45deg) translate(-3rem, -2rem);
+    z-index: 2;
+}
+.action h2 {
+    color: #fff;
+    letter-spacing: .3rem;
 }
 .title {
     margin: 1.5rem auto;
     font-size: large;
 }
 .price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 10px;
+}
+.price p {
+    text-decoration: line-through;
 }
 .product a {
     text-decoration: none;
@@ -53,6 +72,14 @@ body {
     border-radius: 10px;
     color: #fff;
     background: #000;
+}
+.hub {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 1rem;
+}
+.hub h3 {
+    color: #777;
 }
 .btn_buy {
     display: flex;
