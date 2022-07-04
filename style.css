@@ -32,17 +32,14 @@ header {
 .delivery h3 {
     color: dimgray;
 }
-.products {
-    
-}
 .product {
     border: 2px solid #000;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;  
-    margin: 20px;
+    padding: 15px 5px;  
+    margin: 10px 0;
 }
 .title {
     margin: 1.5rem auto;
@@ -63,4 +60,11 @@ header {
 .btn_buy {
     display: flex;
     justify-content: center;
+}
+
+@media (min-width: 850px) {
+    .products {
+        display: flex;
+        justify-content: space-around;
+    }
 }
