@@ -43,7 +43,21 @@ body {
     font-size: large;
 }
 .price {
+    display: flex;
     padding: 10px;
+    place-items: center;
+}
+.price p {
+    text-decoration: line-through;
+    margin-left: 3rem;
+}
+.hub {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+}
+.hub h3 {
+    color: rgb(66, 66, 66);
 }
 .product a {
     text-decoration: none;
