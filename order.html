@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css">
+    <title>Order</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Сторінка замовлення</h1>
+        <div class="input">
+            <form action="/action_page.php" method="get">
+                <label for="index">Введіть свій поштовий індекс:</label>
+                <input type="number" id="index" name="index"><br>
+                <label for="region">Введіть свою область:</label>
+                <input type="text" id="region" name="region" placeholder="Наприклад: Київська"><br>
+                <label for="city">Введіть своє місто:</label>
+                <input type="text" id="city" name="city" placeholder="Наприклад: Київ"><br>
+                <label for="street">Введіть вулицю(село):</label>
+                <input type="text" id="street" name="street"><br>
+                <label for="number_house">Номер будинку:</label>
+                <input type="number" id="number_house" name="number_house"><br>
+                <label for="apartment">Номер квартири(необов'язково):</label>
+                <input type="number" id="apartment" name="apartment"><br>
+                <label for="fname">Ім'я:</label>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="middle_name">По-батькові:</label>
+                <input type="text" id="middle_name" name="middle_name"><br>
+                <label for="lname">Прізвище:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" id="btn_order" value="Замовити">
+            </form><br>
+            <p>Натисніть кнопку «Замовити», і дані форми будуть надіслані на сторінку на
+                сервер під назвою "action_page.php".</p>
+        </div>
+    </div>
+</body>
+</html>
