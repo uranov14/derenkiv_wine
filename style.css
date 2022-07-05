@@ -9,13 +9,15 @@ body {
     font-size: 14px;
     width: 100%;
 }
+header {
+    background-color: rgb(7, 1, 39);
+}
 .logo {
-    background-color: rgb(0, 46, 73);
     display: flex;
     justify-content: center; 
 }
 .logo img{
-    width: 50vw;
+    width: 90vw;
 }
 .delivery {
     display: flex;
@@ -57,9 +59,25 @@ body {
 }
 .price {
     display: flex;
+<<<<<<< HEAD
     justify-content: space-around;
     align-items: center;
+=======
+>>>>>>> order
     padding: 10px;
+    place-items: center;
+}
+.price p {
+    text-decoration: line-through;
+    margin-left: 3rem;
+}
+.hub {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+}
+.hub h3 {
+    color: rgb(66, 66, 66);
 }
 .price p {
     text-decoration: line-through;
@@ -85,10 +103,24 @@ body {
     display: flex;
     justify-content: center;
 }
+.top_sales h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    color: red;
+    font-size: 3rem;
+    text-decoration: underline;
+}
 
 @media (min-width: 850px) {
-    .products {
+    .sales {
         display: flex;
         justify-content: space-around;
+    }
+    .top_sales {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        margin: auto;
     }
 }
